@@ -13,15 +13,11 @@ A TypeScript/Node.js chatbot that lets a small business take orders in chat:
 
 It runs on **WhatsApp Cloud API** and **Telegram**, and in your **terminal** with no accounts at all.
 
-```
-you › hi
-bot › Welcome to Harbour Street Bakery! 👋 ...        [Menu] [Help]
-you › 2
-bot › How many "Butter Croissants (box of 4)"? (1-50)  [1] [2] [3]
-...
-bot › Order ORD-79168162 placed! 🎉  Total: £53.50
-      Pay securely here: https://checkout.stripe.com/...
-```
+<p align="center">
+  <img src="docs/demo.gif" alt="Demo: a customer asks about delivery, orders croissants and cinnamon buns, gets a Stripe payment link and a payment confirmation" width="360">
+  <br>
+  <sub>Every bot reply in this demo comes from the real conversation engine. <a href="docs/demo.mp4">Watch as MP4</a> (74 s).</sub>
+</p>
 
 ## Try it in 30 seconds (no accounts needed)
 
@@ -83,8 +79,8 @@ Limits: sessions (half-finished baskets) live in memory and reset on restart; cu
 | `npm run typecheck` | strict TypeScript check |
 | `npm run build` / `npm start` | compile to `dist/` and run |
 
-## Using this to win freelance clients
+## Want this for your business?
 
-1. Push this folder to a public GitHub repo (the `.gitignore` already leaves out `.env` and order data).
-2. Record a 2-minute screen video: the terminal demo, or a real Telegram chat with Stripe test mode (card `4242 4242 4242 4242`).
-3. For each prospect, copy `data/catalog.json`, put in *their* products and FAQ, and send them a video of the bot talking about their own business. That's much more convincing than a general pitch.
+I set this up for cafés, bakeries, restaurants, salons and other small businesses that take orders by chat: your menu, your answers, your Stripe account, on WhatsApp or Telegram. I can also build custom Node.js/TypeScript integrations (payments, CRMs, spreadsheets, webhooks).
+
+**Contact:** open an issue on this repo or message me on GitHub ([@ayofital](https://github.com/ayofital)).
