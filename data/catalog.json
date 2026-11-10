@@ -1,0 +1,34 @@
+{
+  "businessName": "Harbour Street Bakery",
+  "currency": "GBP",
+  "deliveryFee": 3.5,
+  "products": [
+    { "id": "sourdough", "name": "Sourdough Loaf", "price": 5.5 },
+    { "id": "croissant-box", "name": "Butter Croissants (box of 4)", "price": 9 },
+    { "id": "cinnamon-buns", "name": "Cinnamon Buns (box of 6)", "price": 14 },
+    { "id": "carrot-cake", "name": "Carrot Cake (whole, serves 8)", "price": 32 },
+    { "id": "coffee-beans", "name": "House Coffee Beans (250g)", "price": 11.5 }
+  ],
+  "faq": [
+    {
+      "keywords": ["hours", "open", "close", "time"],
+      "answer": "We're open Tuesday to Sunday, 7am to 4pm. Orders placed after 2pm are delivered the next morning."
+    },
+    {
+      "keywords": ["location", "where", "address", "pickup", "collect"],
+      "answer": "We're at 12 Harbour Street. You can also collect your order from the shop counter."
+    },
+    {
+      "keywords": ["deliver", "delivery", "area", "postcode"],
+      "answer": "We deliver within 5 miles of the shop for a flat £3.50. Delivery usually takes about an hour."
+    },
+    {
+      "keywords": ["allergen", "allergy", "gluten", "vegan", "nut"],
+      "answer": "Our kitchen handles gluten, dairy, eggs and nuts. The sourdough is vegan. Ask us about any specific allergy before ordering."
+    },
+    {
+      "keywords": ["pay", "payment", "card"],
+      "answer": "After you confirm your order, we send a secure Stripe checkout link. You can pay by card, Apple Pay or Google Pay."
+    }
+  ]
+}
